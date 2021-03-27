@@ -56,14 +56,14 @@ scene.add(pointLight)
  * Sizes
  */
 const sizes = {
-    width: window.innerWidth,
+    width: window.innerWidth * .7,
     height: window.innerHeight
 }
 
 window.addEventListener('resize', () =>
 {
     // Update sizes
-    sizes.width = window.innerWidth
+    sizes.width = window.innerWidth * .7
     sizes.height = window.innerHeight
 
     // Update camera
